@@ -1,0 +1,72 @@
+body{
+    border: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-item{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.nav-item:hover{
+    background-color:  rgba(252, 241, 241, 0.403);
+    
+}
+
+.productsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.productCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  rgba(252, 241, 241, 0.403);
+    padding: 7px;
+    margin: 7px;
+  width: 260px;
+
+}
+.productCard img{
+    width: 170px;
+}
+
+
+button{
+    text-decoration: none;
+
+    color:black;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+button:hover{
+    background-color:  rgba(252, 241, 241, 0.403);
+}

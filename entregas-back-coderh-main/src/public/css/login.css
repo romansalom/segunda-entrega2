@@ -1,0 +1,39 @@
+/*body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}*/
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;   
+    background-image: url('https://i.pinimg.com/564x/28/a6/d9/28a6d987e23d9228f984a48746dd4a70.jpg');
+}
+
+.form-clsss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  rgba(252, 241, 241, 0.403);
+    padding: 20px;
+}
+.form-clsss input{
+    padding: 5px;
+    margin: 5px;
+}
+
+.link-style{
+    color: black;
+    text-decoration: none;
+}
+.link-style:hover{
+    background-color:  rgba(252, 241, 241, 0.403);
+   border-radius: 6px;
+}
